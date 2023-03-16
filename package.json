@@ -1,0 +1,37 @@
+{
+  "name": "heicTojpg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup --config",
+    "start": "cross-env ENV='dev' rollup --config --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuanxiaotaizi/heicTojpg.git"
+  },
+  "keywords": [
+    "wasm",
+    "heic",
+    "jpg"
+  ],
+  "type": "module",
+  "author": "xuanxiaotaizi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuanxiaotaizi/heicTojpg/issues"
+  },
+  "homepage": "https://github.com/xuanxiaotaizi/heicTojpg#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@types/node": "^18.15.0",
+    "cross-env": "^7.0.3",
+    "rollup": "^3.19.1",
+    "rollup-plugin-base64": "^1.0.1",
+    "rollup-plugin-live-server": "^2.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-web-worker-loader": "^1.6.1"
+  }
+}
