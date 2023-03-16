@@ -4,11 +4,11 @@ Decode from [@saschazar/wasm-heif](https://github.com/saschazar21/webassembly/tr
 
 ## Installation
 ```bash
-yarn add heicTojpg
+yarn add heictojpeg
 ```
 ## Usage
 ```javascript
-import heicTojpg from "heicTojpg" 
+import heictojpeg from "heictojpeg" 
 
-const jpgFile = heicTojpg(file,quality)
+const jpgFile = heictojpeg(file,quality)
 ```
