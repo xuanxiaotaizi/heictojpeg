@@ -1,4 +1,4 @@
-# heicTojpg
+# heictojpeg
 Converting HEIC/HEIF image formats to JPEG in the browser
 Decode from [@saschazar/wasm-heif](https://github.com/saschazar21/webassembly/tree/main/packages/heif) 
 
